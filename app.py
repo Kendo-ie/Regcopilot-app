@@ -349,8 +349,7 @@ st.markdown("""
   <div style="font-size:1.6rem;line-height:1">🔬</div>
   <div>
     <h1>RegCoPilot.ai</h1>
-    <p>AI-powered regulatory compliance for cosmetics brand managers &nbsp;·&nbsp;
-       EU Reg 1223/2009 &nbsp;·&nbsp; COSING &nbsp;·&nbsp; ASA/CAP</p>
+    <p>AI-powered regulatory compliance for cosmetics brand managers</p>
   </div>
 </div>
 """, unsafe_allow_html=True)
@@ -408,6 +407,25 @@ st.markdown("""
     <span style="color:#065f46;font-weight:700">● Green</span> (proceed),
     <span style="color:#92400e;font-weight:700">● Amber</span> (rework required), or
     <span style="color:#991b1b;font-weight:700">● Red</span> (stop — compliance issue identified).
+  </p>
+  <ul style="margin:0.75rem 0 0;padding-left:1.1rem;font-size:0.88rem;color:#1a2e5a">
+    <li style="margin-bottom:0.4rem">
+      <strong>EU Cosmetics Regulation 1223/2009</strong> — the primary legal framework
+      governing cosmetic products sold in the EU and UK, covering permitted ingredients,
+      prohibited substances, and product safety requirements.
+    </li>
+    <li style="margin-bottom:0.4rem">
+      <strong>COSING (Cosmetic Ingredients Database)</strong> — the European Commission's
+      official database of cosmetic ingredients, used to verify ingredient functions,
+      restrictions, and maximum permitted concentrations.
+    </li>
+    <li>
+      <strong>ASA/CAP Advertising Standards</strong> — the UK rules governing what
+      claims can be made in marketing material, ensuring performance claims are
+      substantiated and not misleading to consumers.
+    </li>
+  </ul>
+  <p style="display:none">
   </p>
 </div>
 """, unsafe_allow_html=True)
